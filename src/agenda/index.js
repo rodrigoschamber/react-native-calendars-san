@@ -12,7 +12,7 @@ import {VelocityTracker} from '../input';
 
 
 const HEADER_HEIGHT = 104;
-const KNOB_HEIGHT = 24;
+const KNOB_HEIGHT = 250;
 //Fallback when RN version is < 0.44
 const viewPropTypes = ViewPropTypes || View.propTypes;
 
