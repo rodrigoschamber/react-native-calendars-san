@@ -12,7 +12,7 @@ import {VelocityTracker} from '../input';
 
 
 const HEADER_HEIGHT = 104;
-const KNOB_HEIGHT = 250;
+const KNOB_HEIGHT = 24;
 //Fallback when RN version is < 0.44
 const viewPropTypes = ViewPropTypes || View.propTypes;
 
@@ -378,7 +378,7 @@ export default class AgendaView extends Component {
     const scrollPadStyle = {
       position: 'absolute',
       width: 80,
-      height: KNOB_HEIGHT,
+      height: 250,
       top: scrollPadPosition,
       left: (this.viewWidth - 80) / 2
     };

@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendars-san",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "description": "React Native Calendar Components - modified to accept different layouts in the agenda",
   "scripts": {
