@@ -378,7 +378,7 @@ export default class AgendaView extends Component {
     const scrollPadStyle = {
       position: 'absolute',
       width: 80,
-      height: 250,
+      height: 220,
       top: scrollPadPosition,
       left: (this.viewWidth - 80) / 2
     };
